@@ -23,5 +23,5 @@
 - 方便生成excel表格
 - `yourown.excel` 是在检查过程中，记录的有问题app的excel文件。`yigong.excel`是移动给的所有app信息的excel。`path`是记录结果的文件夹路径
 - 脚本会从 `yidong.excel` 中找出 `yourown.excel` 中出现过的MD5对应的信息
-- 最后会保存在path下生成result.xls文件 
+- 最后会保存在`path`下生成`result.xls`文件 
 
