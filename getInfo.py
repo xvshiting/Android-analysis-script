@@ -16,7 +16,7 @@ def writ_to_xls(excel_1,excel_2,write_path):
 	df_2=pd.read_excel(excel_2)
 	df_4=df_1.iloc[:,0:1]
 	df_4.columns=['A']
-	df_2.columns=['A','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w']
+	df_2.columns=['A','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s']
 	df_2=df_2.iloc[2:,:]
 	df_3=pd.merge(df_4,df_2,on='A')
 	df_3.to_excel(write_path+os.sep+"result_excel.xls")
